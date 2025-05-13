@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.navbar-dark {
+  background-color: #495057;
+}
+
+.clock-container {
+  display: block;
+  margin-top: 50px;
+  position: relative;
+}
+
+.clock-card {
+  background-color: #495057;
+  color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.clock-title {
+  font-size: 1.5rem;
+}
+
+.clock-display {
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.1);
+  user-select: none;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.tht{
+    font-size: 1.5rem;
+    color: #676767;
+    text-align: center;
+    margin-top: 20px;
+}
